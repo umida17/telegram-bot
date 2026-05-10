@@ -5,7 +5,7 @@
   justify-content: center;
   align-items: center;
   min-height: 100vh;
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background: linear-gradient(135deg, #657eed 0%, #af78e5 100%);
   font-family: 'Poppins', sans-serif;
 }
 
@@ -23,16 +23,10 @@
   gap: 15px;
 }
 
- h2 {
-  color: white;
-  text-align: center;
-  margin-bottom: 20px;
-  font-weight: 300;
-}
 
  label {
   color: rgba(255, 255, 255, 0.8);
-  font-size: 14px;
+  font-size: 18px;
   margin-left: 5px;
 }
 
@@ -40,7 +34,7 @@
   background: rgba(255, 255, 255, 0.1);
   border: 1px solid rgba(255, 255, 255, 0.2);
   border-radius: 10px;
-  padding: 12px 15px;
+   padding: 12px 15px;
   color: white;
   outline: none;
   transition: 0.3s;
@@ -51,7 +45,7 @@ input::placeholder {
 }
 
 input:focus {
-  background: rgba(255, 255, 255, 0.2);
+  background: rgba(122, 55, 55, 0.2);
   border-color: #ffffff;
   box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
 }
