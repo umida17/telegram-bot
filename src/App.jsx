@@ -9,6 +9,8 @@ const App = () => {
     const chat_id = 1643133355
 
 
+    const url = `https://api.telegram.org/bot${token}/sendMessage`;
+
     
   }
   return (
