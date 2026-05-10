@@ -15,7 +15,23 @@ const App = () => {
     const phone = document.getElementById("username").value
 
 
-    
+    const messageContent = `Ism : {name}\n ${phone}`
+
+    axios ({
+      url: url,
+      method: "POST",
+      data: {
+        chat_id: chat_id,
+        text: messageContent,
+      }
+    })
+    .then(()=>{
+      alert("xamasi joyida")
+    }).catch((err)=>{
+      console.log(err);
+      
+    })
+
   }
   return (
      <>
