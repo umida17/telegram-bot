@@ -4,7 +4,12 @@ import React from 'react'
 const App = () => {
 
   const sendMessge = (event)=>{
+    event.preventDefault();
+    const token ="8794405647:AAGN8HKIqAYSes1Vl3q1T7fZr0WtolczAoU"
+    const chat_id = 1643133355
 
+
+    
   }
   return (
      <>
