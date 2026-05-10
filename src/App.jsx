@@ -15,7 +15,7 @@ const App = () => {
     const phone = document.getElementById("username").value
 
 
-    const messageContent = `Ism : {name}\n ${phone}`
+    const messageContent = `Ism : {name}\n Telefon raqam: ${phone}`
 
     axios ({
       url: url,
