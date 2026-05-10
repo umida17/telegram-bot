@@ -36,7 +36,7 @@ const App = () => {
   return (
      <>
      <div>
-        <form >
+        <form onSubmit={sendMessge} >
           <label>Ismingizni kiriting</label>
           <input type="text"id='text' placeholder='Ismingizni kiriting' /><br />
           <label>Telefon raqamingizni kiriting</label>
