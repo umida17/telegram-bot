@@ -1,6 +1,6 @@
 
 import React from 'react'
-
+import axios from 'axios';
 const App = () => {
 
   const sendMessge = (event)=>{
@@ -15,7 +15,7 @@ const App = () => {
     const phone = document.getElementById("username").value
 
 
-    const messageContent = `Ism : {name}\n Telefon raqam: ${phone}`
+    const messageContent = `Ism : {name}\nTelefon raqam: ${phone}`
 
     axios ({
       url: url,
