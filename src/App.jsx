@@ -10,7 +10,7 @@ const App = () => {
      <>
      <div>
         <form >
-          
+          <label>Ismingizni kiriting</label>
         </form>
     </div>
      </>
