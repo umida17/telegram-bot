@@ -11,6 +11,9 @@ const App = () => {
      <div>
         <form >
           <label>Ismingizni kiriting</label>
+          <input type="text"placeholder='Ismingizni kiriting' /><br />
+          <label>Telefon raqamingizni kiriting</label>
+          
         </form>
     </div>
      </>
