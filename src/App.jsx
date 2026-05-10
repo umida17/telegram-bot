@@ -11,16 +11,17 @@ const App = () => {
 
     const url = `https://api.telegram.org/bot${token}/sendMessage`;
 
-    
+    const name = document.getElementById("text").value
+    const phone = document.getElementById("username").value
   }
   return (
      <>
      <div>
         <form >
           <label>Ismingizni kiriting</label>
-          <input type="text"placeholder='Ismingizni kiriting' /><br />
+          <input type="text"id='text' placeholder='Ismingizni kiriting' /><br />
           <label>Telefon raqamingizni kiriting</label>
-          <input type="text"placeholder='Raqamingizni kiritinng' />
+          <input type="text"id='username' placeholder='Raqamingizni kiritinng' />
 
 
           <button type='subnit'>Jo'natish</button>
