@@ -2,10 +2,16 @@
 import React from 'react'
 
 const App = () => {
+
+  const sendMessge = (event)=>{
+
+  }
   return (
      <>
      <div>
-        <h2>hello</h2>
+        <form >
+          
+        </form>
     </div>
      </>
   )
